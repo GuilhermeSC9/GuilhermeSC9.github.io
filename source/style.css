@@ -37,7 +37,7 @@ main{
 .banner{
     background-image: url("/source/img/banner.png");
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px 10px 0px 0px;
     z-index: 100;
@@ -132,6 +132,12 @@ span{
     transition: 0.3s
 }
 
-.card-social img:hover{
-    background-color: white;
+.spotify:hover{
+    background-color: #1ed760;
+}
+.github:hover{
+    background-color: #ffffff;
+}
+.instagram:hover{
+    background-color: #E1306C
 }
